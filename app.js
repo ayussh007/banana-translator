@@ -4,12 +4,11 @@ var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
 
-// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 //  now we need a serverURL as we need to talk to the server
     var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 //  created a function saying whenever I want to convert the text, I will take the server URL, add query params to it and add key and value to it.
-function getTranslationURL(text){
+function getTranslationURL(text) {
     return serverURL + "?" + "text=" + text
 }
 
