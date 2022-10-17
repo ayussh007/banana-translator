@@ -1,4 +1,12 @@
-# VanillaJS-begineer
+Banana-talk
+This is for fun.It convert english language to Minion speak languange which is called banana language.Let's Translate something.
 
-Minion speak app
-Using this translator you can convert the text from English to Minion speak or Banana language.
+tech stack :
+1.HTML
+
+2.CSS
+
+3.Vanila Javascripts
+
+Api used :
+https://api.funtranslations.com/translate/minion.json
